@@ -1,0 +1,36 @@
+int main(){
+	float f = 12.;
+	int
+	float
+if
+do
+int main(){
+MD____qe09_
+__5
+1234
+12.34E-10
+1.2.345 .1.2.3...45 1.2E10.7 1E10.7 1.2E+0.7 1.2E-0.3 12abcd 1a_b 'a' '1' '\n' '\t' '\\' '\'' ` 'a 'ab' '' '\'
+1. 1.2E 1E. .E 123E 1.2E+ 1.2.3E1.2
+"abcd" "abc\
+ghi\
+09" "ABC\nde\tf" "abcd
+// hello
+// jwd \
+jdadk
+.34567
++ - ++ & && < >= = == ! (                                  ] ) [
+//dj \
+daas \
+ajnn
+/* abcd */
+/* djds
+
+amdn \n \
+*/  /** another
+*** comment ***/
+} "abcd\
+efgh
+ijk"
+int 
+"A double quote is this : \" and a single quote is this : \'"
+"This is a case of non escapable character \d but \n is escapable" 

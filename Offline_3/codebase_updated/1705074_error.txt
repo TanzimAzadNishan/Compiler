@@ -1,0 +1,16 @@
+Error at Line 3 : syntax error
+
+Error at Line 3 : 1th parameter's name not given in function definition of var
+
+Error at Line 8 : syntax error
+
+Error at Line 9 : syntax error
+
+Error at line 10: Unrecognized character #
+
+Error at line 10: Unrecognized character ~
+
+Error at line 10: Unrecognized character #
+
+Total errors: 7
+
