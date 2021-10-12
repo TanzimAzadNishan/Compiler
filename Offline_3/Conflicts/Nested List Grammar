@@ -1,0 +1,11 @@
+start: outerList Z ;
+
+outerList: /* empty */
+	| outerList outerListItem ;
+	
+outerListItem: innerList ;
+
+innerList:  /* empty */
+	|  innerList innerListItem ;
+	
+innerListItem: I ;
