@@ -233,8 +233,8 @@ continue {
 		else{
 			logFile<<yytext<<" already exists in current ScopeTable"<<endl<<endl;
 		}  
-	}
-\'[^\\]\' {
+	}	
+\'[^\\\r\n]\' {
 		string charLexeme;
 		charLexeme = yytext[1];
 		
@@ -417,11 +417,15 @@ continue {
 {DIGIT}({LETTER}|{DIGIT}|_)* {
 		logFile << "Error at line no "<<line_count<<": "<<"Invalid prefix on ID or invalid suffix on Number " 					<<yytext<<endl<<endl;
 		error_count++; 
-	}	
+	}
+\'{NEWLINE}+ {
+		logFile << "Error at line no "<<line_count<<": "<<"Unterminated character "<<yytext<<endl<<endl;
+		error_count++; 
+	}		
 \'\\{ESCAPE_CHAR} {
 		logFile << "Error at line no "<<line_count<<": "<<"Unterminated character "<<yytext<<endl<<endl;
 		error_count++; 
-	}
+	}	
 \'[^\'\r\n]* {
 		logFile << "Error at line no "<<line_count<<": "<<"Unterminated character "<<yytext<<endl<<endl;
 		error_count++; 
@@ -481,7 +485,6 @@ int main(int argc,char *argv[]){
     
     return 0;
 }
-
 
 
 
